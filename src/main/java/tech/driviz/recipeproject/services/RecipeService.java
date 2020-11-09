@@ -6,4 +6,5 @@ import tech.driviz.recipeproject.models.Recipe;
 
 public interface RecipeService {
 	Set<Recipe> getRecipes();
+	Recipe findById(Long id);
 }
